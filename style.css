@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0)70%),url(3.avif);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+.logo{
+    color: #ea6d07;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-top: 1px;
+    float: left;
+}
+.menu
+{
+    width: 400px;
+    height: 70px;
+    float: left;
+    
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 64px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family:Arial;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+
+}
+
+ul li a:hover{
+    color: #ea6d07;
+}
+.search
+{
+    width: 330px;
+  
+    float: left;
+    margin-left: 270px;
+    
+}
+.scrch{
+    width: 200px;
+    height:26px;
+    font-family: 'Times New Roman';
+    background: transparent;
+    border: 1px solid #f55f0f;
+   margin-top: 13px;
+   color: #fff;
+   border-right: none;
+   font-size: 17px;
+   float: left;
+   padding: 10px;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+
+}
+
+.btn{
+    width: 100;
+    height: 47px;
+    background: rgb(247, 116, 9);
+    border: 20px solid  rgb(247, 116, 9);
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    
+    
+    border-bottom-right-radius:5px ;
+    border-bottom-right-radius: 5px;
+    
+}
+
+.btn:focus{
+    outline: none;
+    
+}
+
+.scrch:focus{
+
+    outline: none;
+
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.content h1{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left:1px ;
+    margin-top: 9% ;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ea6d07;
+    border: none;
+    margin-bottom: 10px;
+    margin-top:20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+.content .par{
+    letter-spacing: 1px;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: .3s ease;   
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+.content span{
+    color: #ea6d07;
+    font-size: 60px;
+}
+
+.form{
+    width:250px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)70%);
+    position:absolute;
+    top: 200px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+   font-family: sans-serif;
+   text-align: center;
+   color: #ea6d07;
+   background: #fff;
+    padding: 8px;
+    margin: 2px;
+    border-radius: 10px;
+}
+.form .btn a{
+    text-decoration: none;
+    color:black;
+    transition: .3s ease;
+    align-items: center;
+
+}
+
+.form input{
+    width: 240px;
+    height:35px;
+    background: transparent;
+    border-bottom: 1px solid #ea6d07;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+
+.form input:focus{
+    outline: none;
+}
+ ::placeholder{
+    color: #fff;
+    font-family: Arial;
+ }
+
+ .btnn{
+    width: 240px;
+    height: 40px;
+    background: #ea6d07;
+    border: none;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: .4s ease;
+ }
+
+ .btnn:hover{
+    background-color: #fff;
+    color: #ea6d07;
+    border: 1px solid #ea6d07;
+ } 
+
+ .btnn a{
+    text-decoration: none;
+    color: black;
+ }
+
+ .form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align:center;
+
+ }
+
+ .fomr .link a{
+    text-decoration: none;
+    color: #ea6d07;
+    transition: .3s ease;
+ }
+
+ .liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+ }
+
+ .icon a{
+    text-decoration: none;
+    color:#fff;
+
+ }
+
+ .icons ion-icon{
+           color: #fff;
+           font-size: 30px;
+           padding-left: 14px;
+           padding-top: 5px;
+           transition: 0.3s ease;
+ }
+
+ .icon ion-icon:hover{
+    color: #ea6d07;
+ }
